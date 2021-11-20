@@ -2,7 +2,6 @@
 
 int main()
 {
-    int x = 0, y = 0, z = 0;
     int sum = 0, sum1 = 0, sum2 = 0, sum3 = 0;
     int pr[3][3];
     int a[3][3] ;
