@@ -81,15 +81,11 @@ int main()
         }
     }
     printf("THE MULTIPLICATION OF THESE TWO MATRIX ARE :\n");
-    printf("%d\t", pr[0][0]);
-    printf("%d\t", pr[0][1]);
-    printf("%d\n", pr[0][2]);
-    printf("%d\t", pr[1][0]);
-    printf("%d\t", pr[1][1]);
-    printf("%d\n", pr[1][2]);
-    printf("%d\t", pr[2][0]);
-    printf("%d\t", pr[2][1]);
-    printf("%d\t", pr[2][2]);
+    for(int i=0;i<3;i++){
+        for(int x=0;x<3;x++){
+            printf("%d ",pr[i][x]);
+        }printf("\n");
+    }
 
     return 0;
 }
